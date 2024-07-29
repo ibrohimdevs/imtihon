@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.navbar__top{
+    width: 50px;
+    height: 50px;
+    display: flex;
+}
+.input input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 40px;
+}
+.acc {
+    width: max-content;
+    height: 40px;
+    display: flex;
+    gap: 30px;
+
+    div {
+        display: flex;
+        span {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
+.home{
+    width: 100%;
+    height: 70px;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+.paragrpg{
+    display: flex;
+    gap: 20px;
+    color: gray;
+}
+.img{
+    display: flex;
+    color: white;
+}
+.banner {    
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.img__two img{
+    display: flex;
+    margin: 15px;
+}
+.second-card {
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    div{
+        display: flex;
+        gap: 20px;
+        
+        span {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+            justify-content: center;
+        }
+    }
+}
+.h4{
+    display: flex;
+    justify-content: space-around;
+    margin-top:30px;
+    font-size: 30px;
+    gap: 400px;
+    p{
+        font-size: 20px;
+    }
+    
+}
+.menu-box{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    overflow-x:  scroll;
+ }
+ section {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.second-sixth {
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    div {
+        width: 200px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        gap: 20px;
+        border: 1px solid #E6E6E6;
+        border-radius: 10px;
+        margin-top: 10px;
+        padding: 20px 0px 20px 20px;
+
+        img {
+            width: 200px;
+        }
+    }
+
+}
+
+.second {
+    margin-top: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    div {
+        width: 20%;
+        padding: 20px;
+        border: 1px solid #E6E6E6;
+    }
+}
